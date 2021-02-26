@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.quote-content {
+  display: block;
+  height: 10rem;
+}
+
+.author {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.horizontal-line {
+  border-color: coral;
+}
+
+$font-name: "Sacramento";
+$font-name-tangerine: "Tangerine";
+$font-name-tangerine-bold: "Tangerine-Bold";
+$font-family-niconne: "Niconne";
+@font-face {
+  font-family: "Sacramento";
+  src: url("fonts/Sacramento-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tangerine";
+  src: url("fonts/Tangerine-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tangerine-Bold";
+  src: url("fonts/Tangerine-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Niconne";
+  src: url("fonts/Niconne-Regular.ttf") format("truetype");
+}
